@@ -1,4 +1,6 @@
 Beta::Application.routes.draw do
+  root :to => 'mobile#index'
+  #match 'mobile' => 'mobile#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
